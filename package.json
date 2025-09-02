@@ -1,0 +1,10 @@
+{
+  "name": "qr_code_generator",
+  "version": "1.0.0",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "qrcode": "^1.5.4"
+  }
+}

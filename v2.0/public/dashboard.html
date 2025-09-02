@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QR Admin – Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Mina länkar</h1>
+
+  <div id="create-link">
+    <input type="url" id="new-destination" placeholder="Ny destination (https://...)">
+    <button onclick="createLink()">Skapa länk</button>
+  </div>
+
+  <div id="links"></div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
