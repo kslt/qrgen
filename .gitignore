@@ -1,6 +1,12 @@
 # Ignorera node_modules
 node_modules/
 
+# Ignorera generarade QR-kod bilder
+qr_codes/
+
+# Ignorera uploads
+uploads/
+
 # Ignorera loggfiler
 *.log
 
